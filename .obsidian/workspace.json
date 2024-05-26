@@ -6,7 +6,7 @@
       {
         "id": "c87dd4afc324164f",
         "type": "tabs",
-        "dimension": 80.01269035532995,
+        "dimension": 84.07643312101911,
         "children": [
           {
             "id": "27f0146a851cfd08",
@@ -31,14 +31,38 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ff098f2de4872d4c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Systematic Programming Design/Binary Search Tree.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8adfe04e777690af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Trees.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       },
       {
         "id": "db950d6abf744f0a",
         "type": "tabs",
-        "dimension": 19.987309644670052,
+        "dimension": 15.92356687898089,
         "children": [
           {
             "id": "800aff81d26c74ed",
@@ -114,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Systematic Programming Design/HTDF.md",
+                "file": "Trees.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Systematic Programming Design/HTDF.md",
+                "file": "Trees.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Systematic Programming Design/HTDF.md"
+                "file": "Trees.md"
               }
             }
           }
@@ -175,10 +199,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0c4658627e0abfa8",
+  "active": "8adfe04e777690af",
   "lastOpenFiles": [
-    "CS 106 B Lecture 6.md",
+    "imgs/Pasted image 20240526201701.png",
+    "imgs/Pasted image 20240526201419.png",
+    "imgs/Pasted image 20240526193044.png",
+    "imgs/Pasted image 20240526185941.png",
+    "imgs/Pasted image 20240526185819.png",
+    "imgs/Pasted image 20240526184236.png",
+    "imgs/Pasted image 20240526182310.png",
+    "imgs/Pasted image 20240526180803.png",
+    "imgs/Pasted image 20240526175826.png",
+    "imgs/Pasted image 20240526175727.png",
+    "imgs/Pasted image 20240526174627.png",
+    "imgs",
+    "Systematic Programming Design/Binary Search Tree.md",
+    "Trees.md",
     "Systematic Programming Design/HTDF.md",
+    "CS 106 B Lecture 6.md",
     "Systematic Programming Design",
     "README.md",
     "CS 106 B Lecture 5.md"
