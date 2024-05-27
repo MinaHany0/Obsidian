@@ -55,9 +55,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ce722cf9df67b286",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Trees Representation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "db950d6abf744f0a",
@@ -138,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trees.md",
+                "file": "Trees Representation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Trees.md",
+                "file": "Trees Representation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trees.md"
+                "file": "Trees Representation.md"
               }
             }
           }
@@ -196,11 +208,18 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "8adfe04e777690af",
+  "active": "ce722cf9df67b286",
   "lastOpenFiles": [
+    "Trees.md",
+    "Trees Representation.md",
+    "imgs/Pasted image 20240526175826.png",
+    "imgs/Pasted image 20240526174627.png",
+    "Systematic Programming Design/Binary Search Tree.md",
+    "README.md",
     "imgs/Pasted image 20240526201701.png",
     "imgs/Pasted image 20240526201419.png",
     "imgs/Pasted image 20240526193044.png",
@@ -209,16 +228,11 @@
     "imgs/Pasted image 20240526184236.png",
     "imgs/Pasted image 20240526182310.png",
     "imgs/Pasted image 20240526180803.png",
-    "imgs/Pasted image 20240526175826.png",
-    "imgs/Pasted image 20240526175727.png",
-    "imgs/Pasted image 20240526174627.png",
     "imgs",
-    "Systematic Programming Design/Binary Search Tree.md",
-    "Trees.md",
+    "imgs - Copy",
     "Systematic Programming Design/HTDF.md",
     "CS 106 B Lecture 6.md",
     "Systematic Programming Design",
-    "README.md",
     "CS 106 B Lecture 5.md"
   ]
 }
