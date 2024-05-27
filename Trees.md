@@ -1,5 +1,3 @@
-![[Pasted image 20240526174627.png]]
-
 # Terminology
 - Edge: the line connecting between two nodes
 		note: tree has n nodes and (n-1) edges
@@ -18,9 +16,7 @@
 		root has height zero , its child has height 1 and so on.
 - Forest: a group of tree having no common root node
 		if you add a head node for the forest, you turn it into a tree
-		![[Pasted image 20240526175727.png]]
-
-
+		
 ## Screen Shot from Terminology Part:
 	![[Pasted image 20240526175826.png]]
 

@@ -62,7 +62,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Trees Representation.md",
+                "file": "Trees.md",
                 "mode": "source",
                 "source": false
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trees Representation.md",
+                "file": "Trees.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Trees Representation.md",
+                "file": "Trees.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trees Representation.md"
+                "file": "Trees.md"
               }
             }
           }
@@ -214,8 +214,8 @@
   },
   "active": "ce722cf9df67b286",
   "lastOpenFiles": [
-    "Trees.md",
     "Trees Representation.md",
+    "Trees.md",
     "imgs/Pasted image 20240526175826.png",
     "imgs/Pasted image 20240526174627.png",
     "Systematic Programming Design/Binary Search Tree.md",
