@@ -20,3 +20,5 @@ when creating stack using linked list you need to insert and delete at head posi
 when using array based stack, the size is determined at start (whether you allocate array in stack or heap is irrelevant)
 however when using list based stack , the size of stack is unlimited.
 so when do we say that stack is full ? when heap is full and we fail to create another node.
+
+### One Application of stacks is solving math operations

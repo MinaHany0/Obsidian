@@ -67,9 +67,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "67798907a8afdc4c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Solving Math Equations using Stacks.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       },
       {
         "id": "db950d6abf744f0a",
@@ -150,7 +162,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Stacks.md",
+                "file": "Solving Math Equations using Stacks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +179,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Stacks.md",
+                "file": "Solving Math Equations using Stacks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Stacks.md"
+                "file": "Solving Math Equations using Stacks.md"
               }
             }
           },
@@ -219,8 +231,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ce722cf9df67b286",
+  "active": "67798907a8afdc4c",
   "lastOpenFiles": [
+    "Stacks.md",
+    "Solving Math Equations using Stacks.md",
     "Trees Representation.md",
     "imgs/Trees Representation-20240528002735758.webp",
     "Excalidraw/Drawing 2024-05-27 23.58.51.excalidraw.md",
