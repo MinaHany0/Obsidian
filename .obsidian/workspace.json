@@ -62,7 +62,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Trees Representation.md",
+                "file": "Stacks.md",
                 "mode": "source",
                 "source": false
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trees Representation.md",
+                "file": "Stacks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Trees Representation.md",
+                "file": "Stacks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trees Representation.md"
+                "file": "Stacks.md"
               }
             }
           },
@@ -216,16 +216,14 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "mermaid-tools:Open Mermaid Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "command-palette:Open command palette": false
     }
   },
   "active": "ce722cf9df67b286",
   "lastOpenFiles": [
+    "Trees Representation.md",
     "imgs/Trees Representation-20240528002735758.webp",
     "Excalidraw/Drawing 2024-05-27 23.58.51.excalidraw.md",
-    "Trees Representation.md",
     "Excalidraw/Drawing 2024-05-27 23.57.40.excalidraw.md",
     "Excalidraw",
     "Trees.md",
@@ -240,7 +238,6 @@
     "imgs/Pasted image 20240526185819.png",
     "imgs/Pasted image 20240526184236.png",
     "imgs/Pasted image 20240526182310.png",
-    "imgs/Pasted image 20240526180803.png",
     "imgs",
     "imgs - Copy",
     "Systematic Programming Design/HTDF.md",
