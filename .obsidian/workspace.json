@@ -9,79 +9,18 @@
         "dimension": 84.07643312101911,
         "children": [
           {
-            "id": "27f0146a851cfd08",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CS 106 B Lecture 6.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "eb5c91710a7c5ac6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Systematic Programming Design/HTDF.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ff098f2de4872d4c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Systematic Programming Design/Binary Search Tree.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8adfe04e777690af",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Trees.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ce722cf9df67b286",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Stacks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "67798907a8afdc4c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Solving Math Equations using Stacks.md",
+                "file": "Trees Representation.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       },
       {
         "id": "db950d6abf744f0a",
@@ -162,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Solving Math Equations using Stacks.md",
+                "file": "Trees Representation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Solving Math Equations using Stacks.md",
+                "file": "Trees Representation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Solving Math Equations using Stacks.md"
+                "file": "Trees Representation.md"
               }
             }
           },
@@ -219,10 +158,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -233,18 +174,25 @@
   },
   "active": "67798907a8afdc4c",
   "lastOpenFiles": [
+    "Trees.md",
     "Stacks.md",
-    "Solving Math Equations using Stacks.md",
     "Trees Representation.md",
-    "imgs/Trees Representation-20240528002735758.webp",
+    "README.md",
+    "Queue.md",
+    "Untitled.md",
+    "Coding Practise.md",
+    "CS106 Stanford/CS 106 B Lecture 5.md",
+    "CS106 Stanford/CS 106 B Lecture 6.md",
+    "CS106 Stanford",
     "Excalidraw/Drawing 2024-05-27 23.58.51.excalidraw.md",
     "Excalidraw/Drawing 2024-05-27 23.57.40.excalidraw.md",
+    "Systematic Programming Design/HTDF.md",
+    "Systematic Programming Design/Binary Search Tree.md",
+    "Solving Math Equations using Stacks.md",
+    "imgs/Trees Representation-20240528002735758.webp",
     "Excalidraw",
-    "Trees.md",
     "imgs/Pasted image 20240526175826.png",
     "imgs/Pasted image 20240526174627.png",
-    "Systematic Programming Design/Binary Search Tree.md",
-    "README.md",
     "imgs/Pasted image 20240526201701.png",
     "imgs/Pasted image 20240526201419.png",
     "imgs/Pasted image 20240526193044.png",
@@ -254,9 +202,6 @@
     "imgs/Pasted image 20240526182310.png",
     "imgs",
     "imgs - Copy",
-    "Systematic Programming Design/HTDF.md",
-    "CS 106 B Lecture 6.md",
-    "Systematic Programming Design",
-    "CS 106 B Lecture 5.md"
+    "Systematic Programming Design"
   ]
 }

@@ -14,6 +14,7 @@
 		root node is level 1, its child is level 2 and so on.
 - Height: height starts from root and counts the edges
 		root has height zero , its child has height 1 and so on.
+	
 - Forest: a group of tree having no common root node
 		if you add a head node for the forest, you turn it into a tree
 		
@@ -31,7 +32,7 @@ if we have 4 unlabeled nodes , max no of possible binary trees is 14
 
 the formula for max no of possible trees is $((2n C n)/(n+1))$
 
-also, max possible no of binary trees with maximum height =  $2^(n-1)$
+also, max possible no of binary trees with maximum height =  $2^{(n-1)}$
 
 ## Catalan Number
 ![[Pasted image 20240526182310.png]]
@@ -58,7 +59,7 @@ for no of nodes = n
 ![[Pasted image 20240526193044.png]]
 
 # Conclusion
-## Height of binary tree -> $O(log(n)) <= h <= n-1$
+## Height of binary tree -> $log(n) <= h <= n-1$
 ## No of nodes in binary tree -> $h+1 <= n <= 2^{h+1} -1$
 
 ## Binary Tree Note:
@@ -75,8 +76,39 @@ for no of nodes = n
 ## strict n-ary trees
 ![[Pasted image 20240526201419.png]]
 
-External vs Internal Nodes in strict n-ary trees
-![[Pasted image 20240526201701.png]]
+### External vs Internal Nodes in strict n-ary trees
+
+
+Minimum tertiary tree of height 2
+``` mermaid
+graph TD
+A --> B
+A --> C
+A --> D
+B --> E
+B --> F
+B --> G
+```
+Maximum tertiary tree of height 2
+``` mermaid
+graph TD
+A --> B
+A --> C
+A --> D
+B --> E
+B --> F
+B --> G
+C --> H
+C --> I
+C --> J
+D --> K
+D --> L
+D --> M
+```
+
+ in this strict tertiary tree - > External nodes = 2 * Internal nodes +1
+
+Rule: External nodes = (m -1) * internal nodes +1, where m is the degree of the tree
 
 # Notice
 these equations will be used in the analysis when using the trees

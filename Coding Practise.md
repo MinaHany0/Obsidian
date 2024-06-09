@@ -1,0 +1,3 @@
+- seg fault : always check your pointer allocation, use assert, that you if pass a pointer for the dyn alloc by reference not by value
+- - Functions used in ISR must be re-entrant functions if it's to be used on other places in the code
+- variadic function says arithmetic operation on void pointer not defined (i put in a pointer to a struct)
