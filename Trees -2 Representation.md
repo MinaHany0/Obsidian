@@ -1,3 +1,6 @@
+Links:
+[[Trees -1 Introduction]]
+[[Trees -3 generation from Traversals]]
 ## Array Representation vs List Representation
 ### 1-Array Representation
 ``` mermaid
@@ -406,9 +409,59 @@ void iterativePreOrder(Node *pNode){
         }
     }
 }
+
+void iterativeInOrder(Node *pNode){
+    /*create stack to hold the addresses of nodes to be able to get back to them later*/
+    Stack *pStack = createStack(STACKSIZE);
+    /*as long as pointer is a valid node or the stack still has valid nodes */
+    while(pNode || !isStackEmpty(pStack)){
+        /*if pointer to node is not null , navigate to left child*/
+        if(pNode != NULL){
+            pushStack(pStack,  pNode); 
+            pNode = pNode->lchild;
+        }
+        /*if pointer to node is null , pop stack into pointer , print value and navigate to right child*/
+        else{
+            pNode = popStack(pStack);
+            printf("%d\t" , pNode->data);
+            pNode = pNode->rchild;
+        }
+    }
+}
+
+/* problem with post order is how to know that the node popped from stack is resulting from push of a 
+right child ??? a quick solution is adding a 1 to the address in case it was being pushed after right child call
+like if it was an indication of thumb instruction */
+
+void iterativePostOrder(Node *pNode){
+    /*create stack to hold the addresses of nodes to be able to get back to them later*/
+    Stack *pStack = createStack(STACKSIZE);
+    /*as long as pointer is a valid node or the stack still has valid nodes */
+    while(pNode || !isStackEmpty(pStack)){
+        /*if pointer to node is not null , navigate to left child*/
+        if(pNode != NULL){
+            pushStack(pStack,  pNode); 
+            pNode = pNode->lchild;
+        }
+        /*if pointer to node is null , pop stack into pointer , print value and navigate to right child*/
+        else{
+            pNode = popStack(pStack);
+            if((long long int)pNode %2 == 0){
+                pushStack(pStack,   (Node*)((long long int)pNode +1)); 
+                pNode = pNode->rchild;
+            }
+            else if ( (long long int)pNode %2 == 1 ){
+                pNode = (Node*)((long long int)pNode -1);
+                printf("%d\t" , pNode->data);
+                pNode = NULL;
+            }
+        }
+    }
+}
+
 ```
 
-#### Code for Tree Data structural with Recursive traversal and iterative traversals
+#### Full Summary of all above code for Tree Data structural with Recursive traversal and iterative traversals (if you revised all above no need to re read all of this)
 ```
 #include <stdio.h>
 #include <stdlib.h>
@@ -675,5 +728,28 @@ int main(){
     puts("iterative Order Traversing : ");
     iterativePostOrder(head);
     return 0;
+}
+```
+
+#### Level Order Traversals using queues
+```
+void levelOrderTraversal(Node *head){
+    queue *q;
+    createQ(&q , STACKSIZE);
+    Node *pNode = head;
+    printf("%d\t" , pNode->data);
+    enqueue(q , pNode);
+    while(!isEmpty(q)){
+        pNode = dequeue(q);
+        if(pNode->lchild){
+            printf("%d\t" , pNode->lchild->data);
+            enqueue(q , pNode->lchild);
+        }
+        if(pNode->rchild){
+            printf("%d\t" , pNode->rchild->data);
+            enqueue(q , pNode->rchild);
+        }
+    }
+    return;
 }
 ```

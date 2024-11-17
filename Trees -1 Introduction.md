@@ -1,3 +1,7 @@
+
+links:
+[[Trees -2 Representation]]
+[[Trees -3 generation from Traversals]]
 # Terminology
 - Edge: the line connecting between two nodes
 		note: tree has n nodes and (n-1) edges
@@ -79,7 +83,7 @@ for no of nodes = n
 ### External vs Internal Nodes in strict n-ary trees
 
 
-Minimum tertiary tree of height 2
+Minimum strict tertiary tree of height 2
 ``` mermaid
 graph TD
 A --> B

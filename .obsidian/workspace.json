@@ -4,35 +4,49 @@
     "type": "split",
     "children": [
       {
-        "id": "c87dd4afc324164f",
+        "id": "2ce6aee39a01c8e0",
         "type": "tabs",
-        "dimension": 84.07643312101911,
         "children": [
           {
-            "id": "67798907a8afdc4c",
+            "id": "6659f6cb7fed7d3d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Trees Representation.md",
+                "file": "Book The Definitive Guide of HTTP.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Book The Definitive Guide of HTTP"
             }
-          }
-        ]
-      },
-      {
-        "id": "db950d6abf744f0a",
-        "type": "tabs",
-        "dimension": 15.92356687898089,
-        "children": [
+          },
           {
-            "id": "800aff81d26c74ed",
+            "id": "a51adb569d20bff2",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Learnt from labs solved.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Learnt from labs solved"
+            }
+          },
+          {
+            "id": "77c56592b022ed6b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Book The Definitive Guide of HTTP.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Book The Definitive Guide of HTTP"
             }
           }
         ]
@@ -55,7 +69,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -64,13 +80,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#s",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -78,14 +96,16 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "dda61ffaa95ee5c9",
@@ -101,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trees Representation.md",
+                "file": "OSSU OOAD.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +129,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for OSSU OOAD"
             }
           },
           {
@@ -118,10 +140,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Trees Representation.md",
+                "file": "OSSU OOAD.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from OSSU OOAD"
             }
           },
           {
@@ -132,7 +156,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -141,16 +167,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trees Representation.md"
-              }
+                "file": "OSSU OOAD.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of OSSU OOAD"
             }
           },
           {
-            "id": "aedd780e34192f14",
+            "id": "4c39bc2751b81906",
             "type": "leaf",
             "state": {
               "type": "mermaid-toolbar-view",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
         ],
@@ -158,48 +188,61 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "mermaid-tools:Open Mermaid Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "67798907a8afdc4c",
+  "active": "6659f6cb7fed7d3d",
   "lastOpenFiles": [
-    "Trees.md",
-    "Stacks.md",
-    "Trees Representation.md",
-    "README.md",
+    "Web Development Introduction (Tutorial Point).md",
+    "Book The Definitive Guide of HTTP.md",
+    "Learnt from labs solved.md",
+    "PortSwigger.md",
+    "The Hacker Handbook for Web Applications.md",
+    "Bug Bounty Map.md",
+    "Subtyping.md",
+    "OSSU OOAD.md",
+    "imgs/OSSU OOAD-20241022231507892.webp",
+    "imgs/OSSU OOAD-20241022231307503.webp",
+    "imgs/OSSU OOAD-20241022231156216.webp",
+    "imgs/OSSU OOAD-20241022231034475.webp",
+    "imgs/OSSU OOAD-20241022230949637.webp",
+    "imgs/OSSU OOAD-20241022230650814.webp",
+    "imgs/OSSU OOAD-20241022230351487.webp",
+    "imgs/OSSU OOAD-20241022230302430.webp",
+    "imgs/OSSU OOAD-20241022230049988.webp",
+    "imgs/OSSU OOAD-20241022230018690.webp",
+    "Trees -2 Representation.md",
+    "Trees -1 Introduction.md",
+    "Tree -AVL.md",
     "Queue.md",
-    "Untitled.md",
-    "Coding Practise.md",
-    "CS106 Stanford/CS 106 B Lecture 5.md",
-    "CS106 Stanford/CS 106 B Lecture 6.md",
-    "CS106 Stanford",
-    "Excalidraw/Drawing 2024-05-27 23.58.51.excalidraw.md",
-    "Excalidraw/Drawing 2024-05-27 23.57.40.excalidraw.md",
+    "OSSU Networking.md",
+    "OSSU Class Based Program Design.md",
     "Systematic Programming Design/HTDF.md",
     "Systematic Programming Design/Binary Search Tree.md",
-    "Solving Math Equations using Stacks.md",
-    "imgs/Trees Representation-20240528002735758.webp",
+    "OSSU Prog.Lang.A.md",
+    "Networking Course.md",
+    "Trees -3 generation from Traversals.md",
+    "Stacks.md",
+    "Excalidraw/Drawing 2024-09-12 23.41.18.excalidraw.md",
+    "Tree -BST.md",
+    "Coding Practise.md",
+    "Excalidraw/Drawing 2024-07-25 22.55.49.excalidraw.md",
+    "Excalidraw/Drawing 2024-07-23 00.02.08.excalidraw.md",
+    "Excalidraw/Drawing 2024-07-18 22.40.22.excalidraw.md",
     "Excalidraw",
-    "imgs/Pasted image 20240526175826.png",
-    "imgs/Pasted image 20240526174627.png",
-    "imgs/Pasted image 20240526201701.png",
-    "imgs/Pasted image 20240526201419.png",
-    "imgs/Pasted image 20240526193044.png",
-    "imgs/Pasted image 20240526185941.png",
-    "imgs/Pasted image 20240526185819.png",
-    "imgs/Pasted image 20240526184236.png",
-    "imgs/Pasted image 20240526182310.png",
+    "CS106 Stanford",
     "imgs",
     "imgs - Copy",
     "Systematic Programming Design"
