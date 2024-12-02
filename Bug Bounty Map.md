@@ -11,11 +11,11 @@
 | Subject Currently Being Studied |
 | ------------------------------- |
 | The Hacking Application Book    |
-| OOAD                            |
+| HTTP Guide                      |
+| Portswigger                     |
 
 Current Mile Stones for Rewards :)
-1. Finishing OOAD
-2. Chapter 1 Web Application Insecurity (THAB)
+1. Chapter 1 Web Application Insecurity (THAB)
 
 
 ## Finished Courses
@@ -23,6 +23,7 @@ Current Mile Stones for Rewards :)
 2. Programming A,B,C with Prof Dan
 3. C++ Course with Abdel-Bari
 4. Linux Training with Imran Afzal
+5. OOAD by Prof. Prisha
 
 ## Un-Finished Courses
 1. Data Structure and Algorithms
