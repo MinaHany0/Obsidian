@@ -45,3 +45,6 @@ Lab 5
 in this lab we learned to check the cookies for any weird functionality like an admin cookie that is set to true or false.
 also I learnt that cookies are persistent so if you change them in inspect application tab , you have its persistent action.
  Lab link: http://burpsuite/show/2/xorv0szlx2h7v3x67sdm2m994ss60ip0
+
+
+# <span style="color:rgb(255, 192, 0)">NOTICE : some labs are lost due to lost data in obsidian</span> 

@@ -79,3 +79,69 @@ This approach is insecure because a user can modify the value and access functio
 
 
 continue at lab 6 : : use role can be modified in user profile
+
+#### Broken access control resulting from platform misconfiguration
+
+Some applications enforce access controls at the platform layer. they do this by restricting access to specific URLs and HTTP methods based on the user's role. For example, an application might configure a rule as follows:
+
+`DENY: POST, /admin/deleteUser, managers`
+
+This rule denies access to the `POST` method on the URL `/admin/deleteUser`, for users in the managers group. Various things can go wrong in this situation, leading to access control bypasses.
+
+Some application frameworks support various non-standard HTTP headers that can be used to override the URL in the original request, such as `X-Original-URL` and `X-Rewrite-URL`. If a website uses rigorous front-end controls to restrict access based on the URL, but the application allows the URL to be overridden via a request header, then it might be possible to bypass the access controls using a request like the following:
+
+`POST / HTTP/1.1 X-Original-URL: /admin/deleteUser ...`
+
+An alternative attack relates to the HTTP method used in the request. The front-end controls described in the previous sections restrict access based on the URL and HTTP method. Some websites tolerate different HTTP request methods when performing an action. If an attacker can use the `GET` (or another) method to perform actions on a restricted URL, they can bypass the access control that is implemented at the platform layer.
+
+#### Broken access control resulting from URL-matching discrepancies
+
+Websites can vary in how strictly they match the path of an incoming request to a defined endpoint. For example, they may tolerate inconsistent capitalization, so a request to `/ADMIN/DELETEUSER` may still be mapped to the `/admin/deleteUser` endpoint. If the access control mechanism is less tolerant, it may treat these as two different endpoints and fail to enforce the correct restrictions as a result.
+
+Similar discrepancies can arise if developers using the Spring framework have enabled the `useSuffixPatternMatch` option. This allows paths with an arbitrary file extension to be mapped to an equivalent endpoint with no file extension. In other words, a request to `/admin/deleteUser.anything` would still match the `/admin/deleteUser` pattern. Prior to Spring 5.3, this option is enabled by default.
+
+On other systems, you may encounter discrepancies in whether `/admin/deleteUser` and `/admin/deleteUser/` are treated as distinct endpoints. In this case, you may be able to bypass access controls by appending a trailing slash to the path.
+
+
+
+# Horizontal privilege escalation
+
+Horizontal privilege escalation occurs if a user is able to gain access to resources belonging to another user, instead of their own resources of that type. For example, if an employee can access the records of other employees as well as their own, then this is horizontal privilege escalation.
+
+Horizontal privilege escalation attacks may use similar types of exploit methods to vertical privilege escalation. For example, a user might access their own account page using the following URL:
+
+`https://insecure-website.com/myaccount?id=123`
+
+If an attacker modifies the `id` parameter value to that of another user, they might gain access to another user's account page, and the associated data and functions.
+
+#### Note
+<span style="color:rgb(255, 192, 0)">This is an example of an insecure direct object reference (IDOR) vulnerability. This type of vulnerability arises where user-controller parameter values are used to access resources or functions directly.</span> 
+ال  Insecure Direct Object Reference هو عبارة عن دخول مباشر لل اوبجكت بدون تاكيد على هوية المستخدم زى ما حصل فوق كدا
+
+LAB
+
+ [User ID controlled by request parameter](https://portswigger.net/web-security/access-control/lab-user-id-controlled-by-request-parameter)
+
+Solved
+
+In some applications, the exploitable parameter does not have a predictable value. For example, instead of an incrementing number, an application might use <span style="color:rgb(255, 192, 0)">globally unique identifiers (GUIDs) to identify users.</span> This may prevent an attacker from guessing or predicting another user's identifier. However, the GUIDs belonging to other users <span style="color:rgb(255, 192, 0)">might be disclosed elsewhere in the application where users are referenced</span>, such as user messages or reviews.
+
+LAB [User ID controlled by request parameter, with unpredictable user IDs](https://portswigger.net/web-security/access-control/lab-user-id-controlled-by-request-parameter-with-unpredictable-user-ids)
+
+Solved
+
+In some cases, an application does detect when the user is not permitted to access the resource, and returns a redirect to the login page. However, the response containing the redirect might still include some sensitive data belonging to the targeted user, so the attack is still successful.
+
+LAB [User ID controlled by request parameter with data leakage in redirect](https://portswigger.net/web-security/access-control/lab-user-id-controlled-by-request-parameter-with-data-leakage-in-redirect)
+
+### Horizontal to vertical privilege escalation
+
+Often, a horizontal privilege escalation attack can be turned into a vertical privilege escalation, by compromising a more privileged user. For example, a horizontal escalation might allow an attacker to reset or capture the password belonging to another user. If the attacker targets an administrative user and compromises their account, then they can gain administrative access and so perform vertical privilege escalation.
+
+An attacker might be able to gain access to another user's account page using the parameter tampering technique already described for horizontal privilege escalation:
+
+`https://insecure-website.com/myaccount?id=456`
+
+If the target user is an application administrator, then the attacker will gain access to an administrative account page. This page might disclose the administrator's password or provide a means of changing it, or might provide direct access to privileged functionality.
+
+LAB [User ID controlled by request parameter with password disclosure](https://portswigger.net/web-security/access-control/lab-user-id-controlled-by-request-parameter-with-password-disclosure)
