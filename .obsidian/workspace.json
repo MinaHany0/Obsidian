@@ -4,49 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2ce6aee39a01c8e0",
+        "id": "50bbafb70db4d94d",
         "type": "tabs",
         "children": [
           {
-            "id": "6659f6cb7fed7d3d",
+            "id": "7c6e10e1f1cdc0ec",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Book The Definitive Guide of HTTP.md",
+                "file": "PortSwigger/99-Learnt from labs solved.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Book The Definitive Guide of HTTP"
-            }
-          },
-          {
-            "id": "a51adb569d20bff2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Learnt from labs solved.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Learnt from labs solved"
-            }
-          },
-          {
-            "id": "77c56592b022ed6b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Book The Definitive Guide of HTTP.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Book The Definitive Guide of HTTP"
+              "title": "99-Learnt from labs solved"
             }
           }
         ]
@@ -140,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSSU OOAD.md",
+                "file": "Book-The Definitive Guide of HTTP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from OSSU OOAD"
+              "title": "Outgoing links from Book-The Definitive Guide of HTTP"
             }
           },
           {
@@ -174,7 +146,7 @@
             }
           },
           {
-            "id": "4c39bc2751b81906",
+            "id": "b3019c9e6b971822",
             "type": "leaf",
             "state": {
               "type": "mermaid-toolbar-view",
@@ -199,20 +171,38 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "mermaid-tools:Open Mermaid Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "6659f6cb7fed7d3d",
+  "active": "7c6e10e1f1cdc0ec",
   "lastOpenFiles": [
-    "Web Development Introduction (Tutorial Point).md",
-    "Book The Definitive Guide of HTTP.md",
-    "Learnt from labs solved.md",
-    "PortSwigger.md",
-    "The Hacker Handbook for Web Applications.md",
+    "PortSwigger/Access Control/Access Control Intro.md",
+    "PortSwigger/99-Learnt from labs solved.md",
     "Bug Bounty Map.md",
+    "Book-The Definitive Guide of HTTP.md",
+    "OSSU Networking.md",
+    "PortSwigger/API Testing/3-HTTP & Server Side Parameter Pollution.md",
+    "PortSwigger/API Testing/4-Testing for server-side parameter pollution in structured data formats.md",
+    "PortSwigger/Access Control",
+    "PortSwigger/API Testing/5-Testing with automated tools.md",
+    "imgs/Book-The Definitive Guide of HTTP-20241122210614951.webp",
+    "TryHackMe.md",
+    "Try Hack Me.md",
     "Subtyping.md",
+    "imgs/TryHackMe-20241122202415054.webp",
+    "PortSwigger/API Testing/2- Finding Hidden Parameters and Mass Vulnerabilities.md",
+    "PortSwigger/API Testing/1-Identifying and interacting with API endpoints.md",
+    "PortSwigger/API Testing.md",
+    "PortSwigger/API Testing",
+    "PortSwigger",
+    "OSSU Prog.Lang.A.md",
     "OSSU OOAD.md",
+    "OSSU Class Based Program Design.md",
+    "Book-The Hacker Handbook for Web Applications.md",
+    "Trees/Trees -3 generation from Traversals.md",
+    "Web Development Introduction (Tutorial Point).md",
+    "Trees/Trees -2 Representation.md",
+    "Trees",
     "imgs/OSSU OOAD-20241022231507892.webp",
     "imgs/OSSU OOAD-20241022231307503.webp",
     "imgs/OSSU OOAD-20241022231156216.webp",
@@ -221,26 +211,10 @@
     "imgs/OSSU OOAD-20241022230650814.webp",
     "imgs/OSSU OOAD-20241022230351487.webp",
     "imgs/OSSU OOAD-20241022230302430.webp",
-    "imgs/OSSU OOAD-20241022230049988.webp",
-    "imgs/OSSU OOAD-20241022230018690.webp",
-    "Trees -2 Representation.md",
-    "Trees -1 Introduction.md",
-    "Tree -AVL.md",
+    "Trees/Trees -1 Introduction.md",
+    "Trees/Tree -AVL.md",
     "Queue.md",
-    "OSSU Networking.md",
-    "OSSU Class Based Program Design.md",
     "Systematic Programming Design/HTDF.md",
-    "Systematic Programming Design/Binary Search Tree.md",
-    "OSSU Prog.Lang.A.md",
-    "Networking Course.md",
-    "Trees -3 generation from Traversals.md",
-    "Stacks.md",
-    "Excalidraw/Drawing 2024-09-12 23.41.18.excalidraw.md",
-    "Tree -BST.md",
-    "Coding Practise.md",
-    "Excalidraw/Drawing 2024-07-25 22.55.49.excalidraw.md",
-    "Excalidraw/Drawing 2024-07-23 00.02.08.excalidraw.md",
-    "Excalidraw/Drawing 2024-07-18 22.40.22.excalidraw.md",
     "Excalidraw",
     "CS106 Stanford",
     "imgs",
