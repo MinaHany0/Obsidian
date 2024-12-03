@@ -145,3 +145,17 @@ An attacker might be able to gain access to another user's account page using th
 If the target user is an application administrator, then the attacker will gain access to an administrative account page. This page might disclose the administrator's password or provide a means of changing it, or might provide direct access to privileged functionality.
 
 LAB [User ID controlled by request parameter with password disclosure](https://portswigger.net/web-security/access-control/lab-user-id-controlled-by-request-parameter-with-password-disclosure)
+
+
+### Insecure direct object references
+
+Insecure direct object references (IDORs) are a subcategory of access control vulnerabilities. IDORs occur if an application uses user-supplied input to access objects directly and an attacker can modify the input to obtain unauthorized access. It was popularized by its appearance in the OWASP 2007 Top Ten. It's just one example of many implementation mistakes that can provide a means to bypass access controls.
+
+LAB [Insecure direct object references](https://portswigger.net/web-security/access-control/lab-insecure-direct-object-references) 
+in this lab, when requesting the chat logs, the server is serving them using static pages
+so for example the URL for chat is /chat/2.txt
+
+so if you look for /chat/1.txt we find an old chat between carlos and the bot and it contains the password for carlos and we can log in to\ his account
+
+
+
