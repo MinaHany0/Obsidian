@@ -21,7 +21,7 @@ An attacker might be able to perform horizontal and vertical privilege escalatio
 
 ### IDOR vulnerability with direct reference to static files
 
-IDOR vulnerabilities <span style="color:rgb(255, 192, 0)">often arise</span> when sensitive resources are located <span style="color:rgb(255, 192, 0)">in static files</span> on the <span style="color:rgb(255, 192, 0)">server-side filesystem</span>. For example, a website might save chat message transcripts to disk using an incrementing filename, and allow users to retrieve these by visiting a URL like the following:
+IDOR vulnerabilities <span style="color:rgb(255, 192, 0)">often arise</span> when sensitive resources are located <span style="color:rgb(255, 192, 0)">in static files</span> on the <span style="color:rgb(255, 192, 0)">server-side filesystem</span>. For example, a website might save chat message t0ranscripts to disk using an incrementing filename, and allow users to retrieve these by visiting a URL like the following:
 
 `https://insecure-website.com/static/12144.txt`
 
