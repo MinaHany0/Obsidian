@@ -67,3 +67,9 @@ several vulnerabilities have been found in ruby on rails
 
 ## Web Services
 webs services use Simple Object Access Protocol (SOAP) to exchange data. SOAP typically uses the HTTP protocol to transmit messages and represent the XML format
+
+
+# Chapter 4 Mapping the Application
+1. enumerating the application content
+2. understand the technologies being used
+3. 
