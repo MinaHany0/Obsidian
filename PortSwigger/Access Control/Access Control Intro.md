@@ -4,7 +4,9 @@ Access control is the application of <span style="color:rgb(255, 192, 0)">constr
 
 - <span style="color:rgb(255, 192, 0)">Authentication**</span> confirms that the user is who they say they are.
 - <span style="color:rgb(255, 192, 0)">Session management**</span> identifies which subsequent HTTP requests are being made by that same user.
-- <span style="color:rgb(255, 192, 0)">**Access control**</span> determines whether the user is allowed to carry out the action that they are attempting to perform
+- <span style="color:rgb(255, 192, 0)">**Access control**</span> d
+- 
+- etermines whether the user is allowed to carry out the action that they are attempting to perform
 
 <span style="color:rgb(255, 192, 0)">Access Control is vulnerable because decisions are taken by humans</span> 
 # Access Control Security Models
